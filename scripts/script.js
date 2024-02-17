@@ -29,7 +29,7 @@ const displayProducts = (products) => {
 }
 
 const getProducts = async () => {
-    const response = await fetch("../products/products.json");
+    const response = await fetch("products.json");
     productsList = await response.json();
     console.log(productsList);
     displayProducts(productsList);
