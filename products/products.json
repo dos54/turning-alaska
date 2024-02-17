@@ -1,0 +1,602 @@
+[
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Pen - Handcrafted",
+        "name": "Oak Pen",
+        "price": "60",
+        "tags": [
+            "oak",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Table - Handcrafted",
+        "name": "Maple Table",
+        "price": "70",
+        "tags": [
+            "maple",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Bowl - Handcrafted",
+        "name": "Walnut Bowl",
+        "price": "80",
+        "tags": [
+            "walnut",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Pen - Handcrafted",
+        "name": "Cedar Pen",
+        "price": "90",
+        "tags": [
+            "cedar",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Table - Handcrafted",
+        "name": "Oak Table",
+        "price": "100",
+        "tags": [
+            "oak",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Bowl - Handcrafted",
+        "name": "Maple Bowl",
+        "price": "110",
+        "tags": [
+            "maple",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Pen - Handcrafted",
+        "name": "Walnut Pen",
+        "price": "120",
+        "tags": [
+            "walnut",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Table - Handcrafted",
+        "name": "Cedar Table",
+        "price": "130",
+        "tags": [
+            "cedar",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Bowl - Handcrafted",
+        "name": "Oak Bowl",
+        "price": "140",
+        "tags": [
+            "oak",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Pen - Handcrafted",
+        "name": "Maple Pen",
+        "price": "50",
+        "tags": [
+            "maple",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Table - Handcrafted",
+        "name": "Walnut Table",
+        "price": "60",
+        "tags": [
+            "walnut",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Bowl - Handcrafted",
+        "name": "Cedar Bowl",
+        "price": "70",
+        "tags": [
+            "cedar",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Pen - Handcrafted",
+        "name": "Oak Pen",
+        "price": "80",
+        "tags": [
+            "oak",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Table - Handcrafted",
+        "name": "Maple Table",
+        "price": "90",
+        "tags": [
+            "maple",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Bowl - Handcrafted",
+        "name": "Walnut Bowl",
+        "price": "100",
+        "tags": [
+            "walnut",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Pen - Handcrafted",
+        "name": "Cedar Pen",
+        "price": "110",
+        "tags": [
+            "cedar",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Table - Handcrafted",
+        "name": "Oak Table",
+        "price": "120",
+        "tags": [
+            "oak",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Bowl - Handcrafted",
+        "name": "Maple Bowl",
+        "price": "130",
+        "tags": [
+            "maple",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Pen - Handcrafted",
+        "name": "Walnut Pen",
+        "price": "140",
+        "tags": [
+            "walnut",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Table - Handcrafted",
+        "name": "Cedar Table",
+        "price": "50",
+        "tags": [
+            "cedar",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Bowl - Handcrafted",
+        "name": "Oak Bowl",
+        "price": "60",
+        "tags": [
+            "oak",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Pen - Handcrafted",
+        "name": "Maple Pen",
+        "price": "70",
+        "tags": [
+            "maple",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Table - Handcrafted",
+        "name": "Walnut Table",
+        "price": "80",
+        "tags": [
+            "walnut",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Bowl - Handcrafted",
+        "name": "Cedar Bowl",
+        "price": "90",
+        "tags": [
+            "cedar",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Pen - Handcrafted",
+        "name": "Oak Pen",
+        "price": "100",
+        "tags": [
+            "oak",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Table - Handcrafted",
+        "name": "Maple Table",
+        "price": "110",
+        "tags": [
+            "maple",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Bowl - Handcrafted",
+        "name": "Walnut Bowl",
+        "price": "120",
+        "tags": [
+            "walnut",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Pen - Handcrafted",
+        "name": "Cedar Pen",
+        "price": "130",
+        "tags": [
+            "cedar",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Table - Handcrafted",
+        "name": "Oak Table",
+        "price": "140",
+        "tags": [
+            "oak",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Bowl - Handcrafted",
+        "name": "Maple Bowl",
+        "price": "50",
+        "tags": [
+            "maple",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Pen - Handcrafted",
+        "name": "Walnut Pen",
+        "price": "60",
+        "tags": [
+            "walnut",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Table - Handcrafted",
+        "name": "Cedar Table",
+        "price": "70",
+        "tags": [
+            "cedar",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Bowl - Handcrafted",
+        "name": "Oak Bowl",
+        "price": "80",
+        "tags": [
+            "oak",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Pen - Handcrafted",
+        "name": "Maple Pen",
+        "price": "90",
+        "tags": [
+            "maple",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Table - Handcrafted",
+        "name": "Walnut Table",
+        "price": "100",
+        "tags": [
+            "walnut",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Bowl - Handcrafted",
+        "name": "Cedar Bowl",
+        "price": "110",
+        "tags": [
+            "cedar",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Pen - Handcrafted",
+        "name": "Oak Pen",
+        "price": "120",
+        "tags": [
+            "oak",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Table - Handcrafted",
+        "name": "Maple Table",
+        "price": "130",
+        "tags": [
+            "maple",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Bowl - Handcrafted",
+        "name": "Walnut Bowl",
+        "price": "140",
+        "tags": [
+            "walnut",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Pen - Handcrafted",
+        "name": "Cedar Pen",
+        "price": "50",
+        "tags": [
+            "cedar",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Table - Handcrafted",
+        "name": "Oak Table",
+        "price": "60",
+        "tags": [
+            "oak",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Bowl - Handcrafted",
+        "name": "Maple Bowl",
+        "price": "70",
+        "tags": [
+            "maple",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Pen - Handcrafted",
+        "name": "Walnut Pen",
+        "price": "80",
+        "tags": [
+            "walnut",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Table - Handcrafted",
+        "name": "Cedar Table",
+        "price": "90",
+        "tags": [
+            "cedar",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Bowl - Handcrafted",
+        "name": "Oak Bowl",
+        "price": "100",
+        "tags": [
+            "oak",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Pen - Handcrafted",
+        "name": "Maple Pen",
+        "price": "110",
+        "tags": [
+            "maple",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Walnut Table - Handcrafted",
+        "name": "Walnut Table",
+        "price": "120",
+        "tags": [
+            "walnut",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Cedar Bowl - Handcrafted",
+        "name": "Cedar Bowl",
+        "price": "130",
+        "tags": [
+            "cedar",
+            "bowl",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Oak Pen - Handcrafted",
+        "name": "Oak Pen",
+        "price": "140",
+        "tags": [
+            "oak",
+            "pen",
+            "handcrafted",
+            "woodworking"
+        ]
+    },
+    {
+        "imageUrl": "../images/placeholder.jpg",
+        "alt": "Maple Table - Handcrafted",
+        "name": "Maple Table",
+        "price": "50",
+        "tags": [
+            "maple",
+            "table",
+            "handcrafted",
+            "woodworking"
+        ]
+    }
+]

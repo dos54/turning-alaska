@@ -1,0 +1,118 @@
+
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+#navigation-bar {
+    background-color: rgb(142, 183, 254);
+    text-align: left;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    width: 110%;
+    height: auto;
+    align-items: center;
+    margin-top: -.75rem;
+    margin-left: -1rem;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#navigation-bar > h1 {
+    display: inline;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+a {
+    margin: .5rem;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    
+}
+
+#products-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    justify-self: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+    margin-top: -1rem;
+    min-height: 10rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+#main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 3rem;
+}
+
+#search {
+    width: 20rem;
+    padding-top: 1rem;
+    
+}
+
+.product {
+    
+    background-color: #fcecf0;
+    border-radius: 10px;
+    margin: .5rem;
+    padding: .25rem;
+    border: 2px solid black;
+}
+
+.product > img {
+    width: 256px;
+    height: 256px;
+    /* padding: .5rem; */
+    border: .5rem solid darkgray;
+    border-radius: 10px;
+}
+
+.product > .details {
+    text-align: center;
+    
+}
+
+.product > .details > .price {
+    color: darkred;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: aliceblue;
+    width: 110%;
+    text-align: center;
+}
