@@ -15,9 +15,9 @@ const app = express()
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 
-const staticRoutes = require("./routes/static")
+const staticRoutes = require("./src/routes/static")
 
-import utilities from "./utilities"
+import utilities from "./src/utilities"
 const session = require("express-session")
-const pool = require("./database")
+const pool = require("./src/database")
 
