@@ -1,0 +1,40 @@
+<form action="/new" method="POST" class="web-form-1">
+  <label>
+    Product Name
+    <input type="text" name="product_name" id="product_name" required>
+  </label>
+
+  <label>
+    Product Description
+    <input type="text" name="product_description" id="product_description" required>
+  </label>
+
+  <label>
+    Product Slug
+    <input type="text" name="product_slug" id="product_slug" required>
+  </label>
+
+  <label>
+    Product Price
+    <input type="number" name="product_price" id="product_price" step="0.01" required>
+  </label>
+
+  <label>
+    <input type="hidden" name="product_availability" value="false">
+    <input type="checkbox" name="product_availability" id="product_availability" value="true">
+    Product Availability
+  </label>
+
+  <label>
+    Product Location
+    <input type="text" name="product_location" id="product_location" required>
+  </label>
+
+  <button type="submit">Create</button>
+</form>
+
+<form action="/image" method="POST" enctype="multipart/form-data">
+  <input type="hidden" name="product_id" value="1" />
+  <input type="file" name="image" accept="image/*" required />
+  <button type="submit">Upload</button>
+</form>
