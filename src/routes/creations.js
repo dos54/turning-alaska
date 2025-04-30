@@ -1,19 +1,8 @@
 const router = require('express').Router()
 const multer = require('multer')
-// const AWS = require('aws-sdk')
 const fs = require('fs')
 const creationsController = require('../controllers/creationsController')
-
-const upload = multer({dest: 'uploads/'})
-
-const spacesEndpoint = new AWS.Endpoint('sfo2.digitaloceanspaces.com')
-const s3 = new AWS.S3({
-  endpoint: spacesEndpoint,
-  credentials: {
-    accessKeyId: process.env.DO_SPACES_KEY,
-    secretAccessKey: process.env.DO_SPACES_SECRET
-  }
-})
+const upload = multer({ storage: multer.memoryStorage() })
 
 router.get('/new', creationsController.buildUploadForm)
 
@@ -38,5 +27,11 @@ router.post('/image', upload.single('image'), async (req, res) => {
     res.status(500).send('Upload failed')
   }
 })
+
+router.post(
+  '/uploadImage',
+  upload.single('image'),
+  creationsController.uploadImage
+)
 
 module.exports = router

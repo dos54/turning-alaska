@@ -14,6 +14,8 @@ async function addProduct(
   try {
     await client.query('BEGIN')
     await client.query('INSERT INTO products (product_name, product_description, product_slug, product_price, product_availability, product_location) VALUES ($1, $2, $3, $4, $5, $6) RETURNING product_id')
+  } catch (err) {
+    throw err
   }
   
 }

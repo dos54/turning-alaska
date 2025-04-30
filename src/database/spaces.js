@@ -1,13 +1,14 @@
 const { S3 } = require('@aws-sdk/client-s3')
+require('dotenv').config()
 
 const s3Client = new S3({
   forcePathStyle: false,
-  endpoint: 'https://nyc3.digitaloceanspaces.com',
+  endpoint: process.env.DO_SPACES_ENDPOINT,
   region: 'us-east-1',
   credentials: {
     accessKeyId: process.env.DO_SPACES_KEY,
     secretAccessKey: process.env.DO_SPACES_SECRET,
-  }
+  },
 })
 
 async function uploadFileToSpaces(fileBuffer, fileName, contentType) {
@@ -21,11 +22,11 @@ async function uploadFileToSpaces(fileBuffer, fileName, contentType) {
 
   try {
     const result = await s3Client.putObject(params)
-    return `https://${process.env.DO_SPACES_BUCKET}.${process.env.DO_SPACES_ENDPOINT}/${fileName}`
+  return `https://${process.env.DO_SPACES_BUCKET}.${process.env.DO_SPACES_ORIGIN}/${fileName}`
   } catch (err) {
     console.error('Upload failed', err)
     throw err
   }
 }
 
-export { s3Client, uploadFileToSpaces }
+module.exports = { s3Client, uploadFileToSpaces }
