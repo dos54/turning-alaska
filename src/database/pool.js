@@ -4,10 +4,11 @@ require('dotenv').config()
 const isDev = process.env.NODE_ENV === 'development'
 
 const pool = new Pool({
-  connectionString: isDev
-    ? process.env.DEV_DATABASE_URL
-    : process.env.DATABASE_URL,
-  ssl: isDev ? { rejectUnauthorized: false } : undefined,
+  host: process.env.DB_HOST,
+  port: 5432,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 })
 
 module.exports = {
