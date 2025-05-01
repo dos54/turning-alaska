@@ -14,7 +14,7 @@ RUN npm ci
 COPY . .
 
 # Expose port CapRover will connect to
-EXPOSE 3000
+EXPOSE 80
 
 # Start your app (adjust if you're not using "start" in package.json)
 CMD ["npm", "start"]
