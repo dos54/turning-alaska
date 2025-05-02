@@ -37,7 +37,7 @@ galleryController.createProduct = async (req, res, next) => {
       buffer,
       originalname
     )
-    res.redirect(`/${product_slug}`)
+    res.redirect(`/gallery/${product_slug}`)
   } catch (err) {
     throw err
   }
