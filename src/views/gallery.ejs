@@ -1,8 +1,17 @@
+<div id="products-gallery">
+
 <ul>
   <% products.forEach(product => { %>
-    <li>
-      <a href="/gallery/<%= product.product_slug %>"><%= product.product_name %></a>
-      Price: $<%= product.product_price %>
+    <li class="product-listing">
+      <a href="/gallery/<%= product.product_slug %>">
+        <div class="image-container">
+          <img class="product-image" loading="lazy" src="<%= product.image_url %>" alt="">
+        </div>
+        <h3><%= product.product_name %></h3>
+        <div>Price: $<%= product.product_price %></div>
+      </a>
     </li>
   <% }) %>
 </ul>
+
+</div>

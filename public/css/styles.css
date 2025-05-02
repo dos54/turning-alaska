@@ -14,6 +14,15 @@ body {
   max-width: 100vw;
 }
 
+header, footer {
+  margin-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 nav {
   width: 100%;
   margin: auto;
@@ -36,7 +45,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: block;
   padding: .5rem;
   width: 100%;
@@ -55,9 +64,93 @@ main {
 
 .web-form-1 {
   display: block;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+
+  border:  1px solid rgba(0, 0, 0, .5);
 }
 
 .web-form-1 label {
   display: block;
-  margin: 1rem;
+  margin-bottom: 1rem;
+}
+
+.web-form-1 input {
+  display: block;
+  margin-top: 4px;
+  width: 100%;
+  height: 48px;
+}
+
+.web-form-1 .checkbox-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.web-form-1 input[type=checkbox] {
+  width: 48px;
+  margin: 0;
+  margin-right: 4px;
+}
+
+.web-form-1 button {
+  width: 100%;
+  height: 48px;
+}
+
+.web-form-1 input[type=file] {
+  display: none;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgb(226, 224, 224);
+}
+
+#products-gallery ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto;
+  justify-content: center;
+}
+
+#products-gallery ul li {
+  min-width: 200px;
+
+}
+
+.product-image {
+  display: block;
+  min-width: 200px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.product-listing {
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-listing .image-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
 }

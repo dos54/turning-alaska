@@ -23,27 +23,32 @@
       required />
   </label>
 
-  <label>
-    <input type="hidden" name="product_availability" value="false" />
+  <label class="checkbox-label">
     <input
       type="checkbox"
       name="product_availability"
       id="product_availability"
       value="true" />
-    Product Availability
+    In Stock
   </label>
 
-  <input
-    type="text"
-    name="tag_labels"
-    id="tag_labels"
-    placeholder="comma,separated,tags" />
+  <label>
+    Tags
+    <input
+      type="text"
+      name="tag_labels"
+      id="tag_labels"
+      placeholder="comma,separated,tags" />
+  </label>
 
   <label>
     Product Location
     <input type="text" name="product_location" id="product_location" required />
   </label>
 
-  <input type="file" name="image" accept="image/*" required />
-  <button type="submit">Create</button>
+  <label class="upload-button">
+    Upload an Image
+    <input type="file" name="image" accept="image/*" required />
+  </label>
+  <button type="submit">Add Item</button>
 </form>

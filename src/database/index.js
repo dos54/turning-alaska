@@ -136,7 +136,27 @@ async function getProductBySlug(slug) {
 }
 
 async function getAllProducts() {
-  const query = 'SELECT * FROM products'
+  const query = `select 
+                  p.product_id,
+                  p.product_name,
+                  p.product_slug,
+                  p.product_price,
+                  p.product_availability,
+                  p.product_location,
+                  i.image_url, 
+                  array_agg(t.tag_label ORDER BY t.tag_label) AS tags
+                FROM products p
+                JOIN images i ON i.product_id = p.product_id
+                JOIN products_tags pt ON pt.product_id = p.product_id
+                JOIN tags t ON t.tag_id = pt.tag_id
+                GROUP BY
+                  p.product_id,
+                  p.product_name,
+                  p.product_slug,
+                  p.product_price,
+                  p.product_availability,
+                  p.product_location,
+                  i.image_url;`
   const result = await db.query(query)
   return result.rows
 }
