@@ -3,22 +3,22 @@ const router = require('express').Router()
 const multer = require('multer')
 const galleryController = require('../controllers/galleryController')
 const upload = multer({ storage: multer.memoryStorage() })
-const { requiresAuth } = require('express-openid-connect')
+const { requiresAdmin } = require('../middleware/requiresAdmin')
 
 // Routes
-router.get('/new', requiresAuth(), galleryController.buildUploadForm)
+router.get('/new', requiresAdmin, galleryController.buildUploadForm)
 router.get('/:slug', galleryController.buildProductPage)
 
 router.post(
   '/new',
-  requiresAuth(),
+  requiresAdmin,
   upload.single('image'),
   galleryController.createProduct
 )
 // Route to upload an image
 router.post(
   '/uploadImage',
-  requiresAuth(),
+  requiresAdmin,
   upload.single('image'),
   galleryController.uploadImage
 )
