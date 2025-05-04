@@ -1,5 +1,5 @@
 # Project deets for TurningAlaska
-This document is meant to include details for the TurningAlaska website, including specifications
+This document is meant to include details for the Turning Alaska website, including specifications
 ## To be built using
 - Express
 - EJS & SSR
@@ -21,8 +21,8 @@ This document is meant to include details for the TurningAlaska website, includi
 - Highlighted / new items
 
 ### Items
-- Tags
-- Gallery (Items including photo, price, list of tags, etc.)
+- Tags ✅
+- Gallery (Items including photo, price, list of tags, etc.) ✅
 - When clicking on an item, you are brought to the page for that item
   - Item page may include more than one photo.
 
@@ -42,7 +42,7 @@ This document is meant to include details for the TurningAlaska website, includi
 ## What systems will I need to build out?
 ### Database
 The database will include the following schemas:
-- Product
+- Product ✅
   - Product ID
   - Name
   - Description
@@ -51,13 +51,13 @@ The database will include the following schemas:
   - Price
   - Availability (Has it sold already?)
   - Location (ie, some items will be shown that are already at a physical store)
-- Tag
+- Tag ✅
   - tagId
   - label
-- product_tags
+- product_tags ✅
   - product_id
   - tag_id
-- image
+- image ✅
   - id
   - product_id
   - url
@@ -78,7 +78,7 @@ The most important and first database will be products.
 ~~Maybe I will use upload thing for the images?~~ I am going to use Spaces by Digital Oceans https://cloud.digitalocean.com/spaces/turning-alaska?i=de476f
 
 #### Functions for the database
-- All of the CRUD operations
+- All of the CRUD operations 
 
 ### Server
 - Views for each page

@@ -9,9 +9,13 @@ let galleryController = {}
 
 /** Build the form for adding products */
 galleryController.buildUploadForm = async (req, res, next) => {
-  res.render('upload-form', {
-    title: 'Create new product',
-  })
+  try {
+    res.render('upload-form', {
+      title: 'Create new product',
+    })
+  } catch (err) {
+    next(err)
+  }
 }
 
 /** Create a new product */
@@ -39,26 +43,34 @@ galleryController.createProduct = async (req, res, next) => {
     )
     res.redirect(`/gallery/${product_slug}`)
   } catch (err) {
-    throw err
+    next(err)
   }
 }
 
 /** Build the gallery page */
 galleryController.buildGalleryPage = async (req, res, next) => {
-  const products = await getAllProducts()
-  res.render('gallery', { title: 'Gallery', products })
+  try {
+    const products = await getAllProducts()
+    res.render('gallery', { title: 'Gallery', products })
+  } catch (err) {
+    next(err)
+  }
 }
 
 /** Build the page for a single product */
 galleryController.buildProductPage = async (req, res, next) => {
-  const slug = req.params.slug
-  console.log(slug)
-  const product = await getProductBySlug(slug)
-
-  res.render('product-page', {
-    title: slug,
-    product: product,
-  })
+  try {
+    const slug = req.params.slug
+    console.log(slug)
+    const product = await getProductBySlug(slug)
+  
+    res.render('product-page', {
+      title: slug,
+      product: product,
+    })
+  } catch (err) {
+    next(err)
+  }
 }
 
 /** Upload an image */
@@ -68,8 +80,10 @@ galleryController.uploadImage = async (req, res, next) => {
     const imageUrl = await processAndUploadImage(buffer, originalname)
     console.log(`Image uploaded to ${imageUrl}`)
   } catch (err) {
-    throw err
+    next(err)
   }
 }
+
+
 
 module.exports = galleryController

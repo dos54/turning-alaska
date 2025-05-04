@@ -2,6 +2,7 @@ const sharp = require('sharp')
 const { uploadFileToSpaces } = require('../database/spaces')
 const path = require('path')
 
+/** Resize and optimize image using Sharp, then upload to the Spaces storage */
 async function processAndUploadImage(buffer, originalname) {
   const optimizedBuffer = await sharp(buffer)
     .resize(800)
