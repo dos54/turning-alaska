@@ -1,2 +1,7 @@
-<h1>Opps!</h1>
+<h1>Oops!</h1>
 <p>Looks like something went wrong.</p>
+<% if (status) { %>
+<h2>Error <%= status %></h2>
+<% } %> <% if (message) { %>
+<p><%= message %></p>
+<% } %>

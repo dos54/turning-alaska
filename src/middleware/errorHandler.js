@@ -9,7 +9,8 @@
 // eslint-disable-next-line
 function errorHandler(err, req, res, next) {
   const status = err.status || 500
-  res.render('error', { title: 'There was an error' })
+  const message = err.message || 'Internal Server Error'
+  res.render('error', { title: 'There was an error', status, message })
 }
 
 module.exports = { errorHandler }

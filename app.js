@@ -32,6 +32,14 @@ const authConfig = {
 // auth router attaches /login, /logout, and /callback routes to the baseURL
 app.use(auth(authConfig))
 
+const { isAdmin } = require('./src/utilities/isAdmin')
+
+app.use((req, res, next) => {
+  res.locals.isAdmin = isAdmin(req.oidc?.user?.email)
+  res.locals.user = req.oidc?.user || null
+  next()
+})
+
 app.use(require('./src/routes/static'))
 app.use(require('./src/routes/index'))
 

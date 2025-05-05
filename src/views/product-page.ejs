@@ -13,3 +13,9 @@
         <% }) %>
       </p>
     <% } %>
+
+    <% if (isAdmin) { %>
+      <form id="deleteForm" method="POST" action="/gallery/<%= slug %>">
+        <button type="submit">Delete</button>
+      </form>
+    <% } %>

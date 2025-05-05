@@ -4,6 +4,7 @@ const {
   getAllProducts,
 } = require('../database/index')
 const { processAndUploadImage } = require('../services/imageService')
+const { isAdmin } = require('../utilities/isAdmin')
 
 let galleryController = {}
 
@@ -61,14 +62,15 @@ galleryController.buildGalleryPage = async (req, res, next) => {
 galleryController.buildProductPage = async (req, res, next) => {
   try {
     const slug = req.params.slug
-    console.log(slug)
     const product = await getProductBySlug(slug)
   
     res.render('product-page', {
       title: slug,
       product: product,
+      slug: slug,
     })
   } catch (err) {
+    err.status = 404
     next(err)
   }
 }
